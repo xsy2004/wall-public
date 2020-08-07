@@ -30,26 +30,22 @@
 一个基于 Vue.js 的匿名表白墙轻量级小程序
 
 ## 演示
-- [https://wall.chainwon.com/](https://wall.chainwon.com/)
+- [https://ncldzx.top/](https://ncldzx.top/)
 - 欢迎大家在 issue 或者 pull request 中添加你部署好的网站链接
 
 ## 许可证
 
-<a href="https://github.com/nexmoe/wall-public/blob/master/LICENSE"><img alt="license" src="https://img.shields.io/github/license/nexmoe/wall-public.svg"/></a>
+<a href="https://github.com/xsy2004/wall-public/blob/master/LICENSE"><img alt="license" src="https://img.shields.io/github/license/nexmoe/wall-public.svg"/></a>
 
 根据 Apache License 2.0 许可证开源。
 
-## 后续更新
-就读高中，
-star 以及 issue 是我更新的动力!
-欢迎加群 [482634342 轻惋漫社](https://jq.qq.com/?_wv=1027&k=5CfKHun) 划水
 
 ## 环境准备
 - 支持 PHP 的服务器，PHP7以上版本最佳
 - 支持 Apache 的服务器
 
 ## 安装
-- 去 [https://github.com/nexmoe/wall-public/releases](https://github.com/nexmoe/wall-public/releases) 下载 zip 包安装
+- 去releases 下载 zip 包安装
 - 将程序解压到网站根目录
 - 访问 `域名/install.php` 填写表单安装即可
 
