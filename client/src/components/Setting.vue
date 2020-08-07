@@ -1,5 +1,5 @@
 <template>
-  <div id="nexmoe-content">
+  <div id="dalao2333-content">
     <router-view />
   </div>
 </template>
@@ -17,7 +17,7 @@
 </script>
 
 <style>
-#nexmoe-content .nexmoe-setting ul {
+#dalao2333-content .dalao2333-setting ul {
     background-color: #fff;
     margin: 0 10px;
     padding: 0;
@@ -25,11 +25,11 @@
     margin-top: 10px; 
     border-radius: 4px;
 }
-#nexmoe-content .nexmoe-setting ul li {
+#dalao2333-content .dalao2333-setting ul li {
     padding: 12px;
     border-bottom: 1px solid #eee;
 }
-#nexmoe-content .nexmoe-setting ul li a {
+#dalao2333-content .dalao2333-setting ul li a {
     color: #000;
     width: 100%;
     height: 100%;

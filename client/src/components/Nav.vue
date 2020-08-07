@@ -1,19 +1,19 @@
 <template>
-  <div id="nexmoe-nav">
-    <ul class="nexmoe-nav">
+  <div id="dalao2333-nav">
+    <ul class="dalao2333-nav">
       <li>
-        <router-link tag="a" to="/"><i class="nexmoefont icon-home"></i><i @click="refresh" class="nexmoefont icon-md-refresh-circle"></i></router-link>
+        <router-link tag="a" to="/"><i class="dalao2333font icon-home"></i><i @click="refresh" class="dalao2333font icon-md-refresh-circle"></i></router-link>
       </li>
       <li>
         <el-badge :value="count">
           <router-link tag="a" to="/notice">
-            <i class="nexmoefont icon-bell"></i>
-            <i class="nexmoefont icon-bell-fill"></i>
+            <i class="dalao2333font icon-bell"></i>
+            <i class="dalao2333font icon-bell-fill"></i>
           </router-link>
         </el-badge>
       </li>
       <li>
-        <router-link tag="a" to="/setting/home"><i class="nexmoefont icon-people"></i><i class="nexmoefont icon-people-fill"></i></router-link>
+        <router-link tag="a" to="/setting/home"><i class="dalao2333font icon-people"></i><i class="dalao2333font icon-people-fill"></i></router-link>
       </li>
     </ul>
   </div>
@@ -53,13 +53,13 @@
     padding-bottom: 56px;
   }
 
-  #nexmoe-nav {
+  #dalao2333-nav {
     position: fixed;
     bottom: 0;
     width: 100%;
   }
 
-  #nexmoe-nav .nexmoe-nav {
+  #dalao2333-nav .dalao2333-nav {
     z-index: 9;
     position: relative;
     height: 56px;
@@ -72,7 +72,7 @@
     width: 100%;
   }
 
-  #nexmoe-nav .nexmoe-nav li {
+  #dalao2333-nav .dalao2333-nav li {
     max-width: none;
     flex: 1;
     text-align: center;
@@ -80,39 +80,39 @@
     color: #adadad;
   }
 
-  #nexmoe-nav .nexmoe-nav li .el-badge {
+  #dalao2333-nav .dalao2333-nav li .el-badge {
     vertical-align: unset;
   }
 
-  #nexmoe-nav .nexmoe-nav li .el-badge__content.is-fixed {
+  #dalao2333-nav .dalao2333-nav li .el-badge__content.is-fixed {
     top: 15px;
   }
 
-  #nexmoe-nav .nexmoe-nav a {
+  #dalao2333-nav .dalao2333-nav a {
     display: block;
     color: #adadad;
     background-color: #fff;
   }
 
-  #nexmoe-nav .nexmoe-nav a i {
+  #dalao2333-nav .dalao2333-nav a i {
     font-size: 28px;
   }
 
-  #nexmoe-nav .nexmoe-nav a.router-link-exact-active {
+  #dalao2333-nav .dalao2333-nav a.router-link-exact-active {
     color: #ff7b8c;
   }
 
-  #nexmoe-nav .nexmoe-nav a.router-link-exact-active i:first-child,
-  #nexmoe-nav .nexmoe-nav a i:last-child {
+  #dalao2333-nav .dalao2333-nav a.router-link-exact-active i:first-child,
+  #dalao2333-nav .dalao2333-nav a i:last-child {
     display: none;
   }
 
-  #nexmoe-nav .nexmoe-nav a i:first-child,
-  #nexmoe-nav .nexmoe-nav a.router-link-exact-active i:last-child {
+  #dalao2333-nav .dalao2333-nav a i:first-child,
+  #dalao2333-nav .dalao2333-nav a.router-link-exact-active i:last-child {
     display: block;
   }
 
-  #nexmoe-nav .nexmoe-nav a.router-link-exact-active i:last-child {
+  #dalao2333-nav .dalao2333-nav a.router-link-exact-active i:last-child {
     display: block;
     animation: zoom .2s ease-out;
     animation-iteration-count: 1;
@@ -128,7 +128,7 @@
     }
   }
 
-  #nexmoe-nav .nexmoe-nav .nexmoe-plus {
+  #dalao2333-nav .dalao2333-nav .dalao2333-plus {
     transition: all .35s;
     background-color: #ff7b8c;
     color: #fff;
@@ -144,7 +144,7 @@
     cursor: pointer;
   }
 
-  #nexmoe-nav .nexmoe-nav .nexmoe-plus .icon-menu {
+  #dalao2333-nav .dalao2333-nav .dalao2333-plus .icon-menu {
     transition: all .35s;
     width: 24px;
     height: 3px;
@@ -154,20 +154,20 @@
     background-color: #fff;
   }
 
-  #nexmoe-nav .nexmoe-nav .nexmoe-plus .icon-menu:nth-child(3n+1) {
+  #dalao2333-nav .dalao2333-nav .dalao2333-plus .icon-menu:nth-child(3n+1) {
     top: 30.5px;
     transform: rotate(90deg);
   }
 
-  #nexmoe-nav .nexmoe-nav .nexmoe-plus .icon-menu:nth-child(3n+2) {
+  #dalao2333-nav .dalao2333-nav .dalao2333-plus .icon-menu:nth-child(3n+2) {
     top: 30.5px;
   }
 
-  #nexmoe-nav .nexmoe-nav .nexmoe-plus.active .icon-menu:nth-child(3n+1) {
+  #dalao2333-nav .dalao2333-nav .dalao2333-plus.active .icon-menu:nth-child(3n+1) {
     transform: rotate(315deg);
   }
 
-  #nexmoe-nav .nexmoe-nav .nexmoe-plus.active .icon-menu:nth-child(3n+2) {
+  #dalao2333-nav .dalao2333-nav .dalao2333-plus.active .icon-menu:nth-child(3n+2) {
     transform: rotate(225deg);
   }
 

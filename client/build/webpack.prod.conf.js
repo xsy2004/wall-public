@@ -34,7 +34,7 @@ const webpackConfig = merge(baseWebpackConfig, {
   plugins: [
     // http://vuejs.github.io/vue-loader/en/workflow/production.html
     new WorkboxPlugin.GenerateSW({
-      cacheId: 'nexmoe-pwa', // 设置前缀
+      cacheId: 'dalao2333-pwa', // 设置前缀
       skipWaiting: true, // 强制等待中的 Service Worker 被激活
       clientsClaim: true, // Service Worker 被激活后使其立即获得页面控制权
       swDest: 'service-wroker.js', // 输出 Service worker 文件

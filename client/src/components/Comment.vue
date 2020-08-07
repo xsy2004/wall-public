@@ -2,12 +2,12 @@
   <div>
     <ul v-for="comment in comment" :key="comment.time">
       <li>
-        <div class="nexmoe-author">
-          <div class="nexmoe-avatar"><img :src="comment.author.avatar"></div>
-          <div class="nexmoe-name">{{ comment.author.name }} <span v-if="comment.parent!=='0'">回复</span> <a>{{ comment.parent.name }}</a></div>
-          <div class="nexmoe-s"><span>{{ comment.time }}</span> <a @click="ereply(comment.coid,comment.author.name)">回复</a></div>
+        <div class="dalao2333-author">
+          <div class="dalao2333-avatar"><img :src="comment.author.avatar"></div>
+          <div class="dalao2333-name">{{ comment.author.name }} <span v-if="comment.parent!=='0'">回复</span> <a>{{ comment.parent.name }}</a></div>
+          <div class="dalao2333-s"><span>{{ comment.time }}</span> <a @click="ereply(comment.coid,comment.author.name)">回复</a></div>
         </div>
-        <div class="nexmoe-text">
+        <div class="dalao2333-text">
           {{ comment.text }}
         </div>
         <Comment :comment="comment.children"></Comment>
@@ -73,29 +73,29 @@
 </script>
 
 <style>
-  #nexmoe-content .nexmoe-comment {
+  #dalao2333-content .dalao2333-comment {
     background-color: #fff;
   }
 
-  #nexmoe-content .nexmoe-comment .nexmoe-author {
+  #dalao2333-content .dalao2333-comment .dalao2333-author {
     height: 42px;
     padding: 10px;
     padding-bottom: 0;
   }
 
-  #nexmoe-content .nexmoe-comment .nexmoe-author .nexmoe-avatar {
+  #dalao2333-content .dalao2333-comment .dalao2333-author .dalao2333-avatar {
     height: 100%;
     float: left;
   }
 
-  #nexmoe-content .nexmoe-comment .nexmoe-author .nexmoe-avatar img {
+  #dalao2333-content .dalao2333-comment .dalao2333-author .dalao2333-avatar img {
     height: 100%;
     border-radius: 100%;
     background: #fff;
   }
 
-  #nexmoe-content .nexmoe-comment .nexmoe-name,
-  #nexmoe-content .nexmoe-comment .nexmoe-s {
+  #dalao2333-content .dalao2333-comment .dalao2333-name,
+  #dalao2333-content .dalao2333-comment .dalao2333-s {
     width: calc(100% - 56px);
     box-sizing: border-box;
     padding: 0 10px;
@@ -105,35 +105,35 @@
     height: 21px;
   }
   
-  #nexmoe-content .nexmoe-comment a {
+  #dalao2333-content .dalao2333-comment a {
     color: #ff7b8c;
   }
 
-  #nexmoe-content .nexmoe-comment ul {
+  #dalao2333-content .dalao2333-comment ul {
     list-style: none;
     padding-left: 0;
     margin: 0;
   }
 
-  #nexmoe-content .nexmoe-comment ul ul {
+  #dalao2333-content .dalao2333-comment ul ul {
     padding-left: 52px;
   }
 
-  #nexmoe-content .nexmoe-comment ul ul ul {
+  #dalao2333-content .dalao2333-comment ul ul ul {
     padding-left: 0;
   }
 
-  #nexmoe-content .nexmoe-comment ul li {
+  #dalao2333-content .dalao2333-comment ul li {
     padding-bottom: 10px;
     border-bottom: 1px solid #eee;
   }
 
-  #nexmoe-content .nexmoe-comment ul ul li {
+  #dalao2333-content .dalao2333-comment ul ul li {
     padding-bottom: 0;
     border-bottom: none;
   }
 
-  #nexmoe-content .nexmoe-comment ul .nexmoe-text {
+  #dalao2333-content .dalao2333-comment ul .dalao2333-text {
     padding-left: 62px;
     text-align: left;
   }

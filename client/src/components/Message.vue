@@ -1,24 +1,24 @@
 <template>
-  <div id="nexmoe-content" class="message">
-    <content-placeholders class="nexmoe-item" v-if="loading">
+  <div id="dalao2333-content" class="message">
+    <content-placeholders class="dalao2333-item" v-if="loading">
       <content-placeholders-heading :img="true" />
       <content-placeholders-img />
       <content-placeholders-text />
     </content-placeholders>
     <Item :item="item" v-if="!loading"></Item>
-    <div class="nexmoe-comment">
-      <div class="nexmoe-tab">
+    <div class="dalao2333-comment">
+      <div class="dalao2333-tab">
         <router-link tag="a" :to="'/message/'+item.mid">评论 {{ item.comment.count }}</router-link>
       </div>
       <ul v-for="comment in item.comment.data" :key="comment.time" v-if="loading">
         <li>
-          <content-placeholders class="nexmoe-item">
+          <content-placeholders class="dalao2333-item">
             <content-placeholders-heading :img="true" />
             <content-placeholders-text :lines="1" />
           </content-placeholders>
           <ul>
             <li>
-              <content-placeholders class="nexmoe-item">
+              <content-placeholders class="dalao2333-item">
                 <content-placeholders-heading :img="true" />
                 <content-placeholders-text :lines="1" />
               </content-placeholders>
@@ -28,8 +28,8 @@
       </ul>
       <Comment :comment="item.comment.data" v-show="!loading"></Comment>
     </div>
-    <div class="nexmoe-reply">
-      <el-button type="primary" @click="ereply()" icon="nexmoefont icon-comment" circle></el-button>
+    <div class="dalao2333-reply">
+      <el-button type="primary" @click="ereply()" icon="dalao2333font icon-comment" circle></el-button>
     </div>
   </div>
 </template>
@@ -121,11 +121,11 @@
   }
 
 
-  #nexmoe-content .nexmoe-comment {
+  #dalao2333-content .dalao2333-comment {
     background-color: #fff;
   }
 
-  #nexmoe-content .nexmoe-reply {
+  #dalao2333-content .dalao2333-reply {
     position: fixed;
     width: 100%;
     padding: 20px;
@@ -134,7 +134,7 @@
     box-sizing: border-box;
   }
 
-  #nexmoe-content .nexmoe-reply .el-button {
+  #dalao2333-content .dalao2333-reply .el-button {
         box-shadow: 0 2px 10px #ff7b8c;
   }
 

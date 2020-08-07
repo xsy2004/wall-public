@@ -72,9 +72,9 @@ body {
 
 @media screen and (min-width: 960px) {
   body,
-  #nexmoe-nav,
-  #nexmoe-header,
-  .nexmoe-reply {
+  #dalao2333-nav,
+  #dalao2333-header,
+  .dalao2333-reply {
     width: 420px !important;
     margin: auto;
   }
@@ -122,7 +122,7 @@ a {
   padding-bottom: 1px;
 }
 
-.nexmoe-tab {
+.dalao2333-tab {
   height: 46px;
   width: 100%;
   border-bottom: 1px solid #eee;
@@ -130,7 +130,7 @@ a {
   box-sizing: border-box;
 }
 
-.nexmoe-tab a {
+.dalao2333-tab a {
   padding: 0;
   box-sizing: border-box;
   line-height: 46px;
@@ -140,11 +140,11 @@ a {
   color: #000;
 }
 
-.nexmoe-tab a.router-link-exact-active {
+.dalao2333-tab a.router-link-exact-active {
   color: #ff7b8c;
 }
 
-.nexmoe-tab a.router-link-exact-active::after {
+.dalao2333-tab a.router-link-exact-active::after {
   color: #ff7b8c;
   content: "";
   background-color: #ff7b8c;
@@ -155,14 +155,14 @@ a {
   left: 0;
 }
 
-#nexmoe-content .nexmoe-item {
+#dalao2333-content .dalao2333-item {
   background-color: #fff;
   margin-bottom: 10px;
   display: block;
   color: #010101;
 }
 
-#nexmoe-content .nexmoe-item::after {
+#dalao2333-content .dalao2333-item::after {
   clear: both;
   display: table;
   content: " ";

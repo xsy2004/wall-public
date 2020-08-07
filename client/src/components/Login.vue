@@ -1,5 +1,5 @@
 <template>
-  <div class="nexmoe-login">
+  <div class="dalao2333-login">
     <el-card shadow="never">
       <el-input v-model="input" placeholder="请输入QQ号登录"></el-input>
       <br><br>
@@ -37,7 +37,7 @@
 
 </script>
 <style>
-  .nexmoe-login {
+  .dalao2333-login {
     padding: 10px;
     text-align: right;
   }

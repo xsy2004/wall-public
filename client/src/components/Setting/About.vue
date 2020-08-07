@@ -1,14 +1,17 @@
 <template>
-    <div class="nexmoe-setting">
+    <div class="dalao2333-setting">
       <ul>
-        <li>作者名称：折影轻梦</li>
-        <li>联系企鹅：776194970</li>
+        <li>虽然我真的很想告诉你们我的名字</li>
+        <li>但是真的迫于某种因素的影响</li>
+        <li>我不能把我的名字公之于众</li>
+        <li>同时这也是本站有匿名功能的原因</li>
+        <li>如果你真的想找到我，那么加我Telegram账号</li>
       </ul>
       <ul>
-        <li>企鹅群聊：797996017</li>
+        <li>TG:@dalao2333</li>
       </ul>
       <ul>
-        <li><a href="https://github.com/nexmoe/wall-public" target="_blank">开源地址：github.com/nexmoe/wall-public</a></li>
+        <li>本程序为开源程序，同样不能放开源地址</li>
         <li>版权协议：MIT</li>
         <li v-if="version">当前版本：{{ version }}</li>
       </ul>

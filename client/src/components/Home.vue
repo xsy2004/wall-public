@@ -1,24 +1,24 @@
 <template>
-  <div id="nexmoe-content">
-    <div class="nexmoe-shortcut">
-      <router-link tag="a" class="nexmoe-shortcut-item pink" :to="'/message/2403'">
-        <div class="nexmoe-shortcut-icon">
-          <i class="nexmoefont icon-smile"></i>
+  <div id="xsy-content">
+    <div class="xsy-shortcut">
+      <router-link tag="a" class="xsy-shortcut-item pink" :to="'/message/2405'">
+        <div class="xsy-shortcut-icon">
+          <i class="xsyfont icon-smile"></i>
         </div>
-        <div class="nexmoe-shortcut-name">意见反馈</div>
+        <div class="xsy-shortcut-name">意见反馈</div>
       </router-link>
       <a
-        class="nexmoe-shortcut-item blue"
+        class="xsy-shortcut-item blue"
         target="_blank"
-        href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://wall.chainwon.com/&title=%E5%A2%99&desc=%E8%BF%99%E9%87%8C%E6%98%AF%E5%A2%99%EF%BC%8C%E5%9C%A8%E8%BF%99%E9%87%8C%EF%BC%8C%E4%BD%A0%E5%8F%AF%E4%BB%A5%E8%87%AA%E5%8A%A8%E4%B8%8B%E5%8D%95%EF%BC%8C%E5%8F%AF%E4%BB%A5%E6%A0%B9%E6%8D%AE%E4%B8%8D%E5%90%8C%E5%88%86%E7%B1%BB%E5%8F%91%E5%8D%95%E3%80%82%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E6%98%AF%EF%BC%8C%E4%B8%8B%E5%8D%95%E7%A7%92%E5%8F%91%E5%93%A6%EF%BC%81&summary=%E8%BF%99%E9%87%8C%E6%98%AF%E5%A2%99%EF%BC%8C%E5%9C%A8%E8%BF%99%E9%87%8C%EF%BC%8C%E4%BD%A0%E5%8F%AF%E4%BB%A5%E8%87%AA%E5%8A%A8%E4%B8%8B%E5%8D%95%EF%BC%8C%E5%8F%AF%E4%BB%A5%E6%A0%B9%E6%8D%AE%E4%B8%8D%E5%90%8C%E5%88%86%E7%B1%BB%E5%8F%91%E5%8D%95%E3%80%82%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E6%98%AF%EF%BC%8C%E4%B8%8B%E5%8D%95%E7%A7%92%E5%8F%91%E5%93%A6%EF%BC%81&site=https://wall.chainwon.com/&pics=https://ws2.sinaimg.cn/large/007edEi9ly1g0gvwuc0gkj30cy0n441b.jpg"
-      >
-        <div class="nexmoe-shortcut-icon">
-          <i class="nexmoefont icon-share"></i>
+        href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://www.ncldzx.top/&title=%E5%8D%97%E6%98%8C%E7%AB%8B%E5%BE%B7%E4%B8%AD%E5%AD%A6%E5%A2%99&desc=%E5%8D%97%E6%98%8C%E7%AB%8B%E5%BE%B7%E4%B8%AD%E5%AD%A6%E4%B8%93%E5%B1%9E%E5%A2%99%EF%BC%8C%E5%9C%A8%E8%BF%99%E9%87%8C%E4%BD%A0%E5%8F%AF%E4%BB%A5%E5%8F%91%E5%B8%83%E4%BD%A0%E6%83%B3%E5%8F%91%E5%B8%83%E7%9A%84%EF%BC%8C%E8%AF%B4%E4%BD%A0%E6%83%B3%E8%AF%B4%E7%9A%84%EF%BC%8C%E5%90%8C%E6%97%B6%E4%B9%9F%E5%8F%AF%E4%BB%A5%E9%80%89%E6%8B%A9%E5%8C%BF%E5%90%8D%E5%8F%91%E5%B8%83%E3%80%82&summary=%E5%8D%97%E6%98%8C%E7%AB%8B%E5%BE%B7%E4%B8%AD%E5%AD%A6%E4%B8%93%E5%B1%9E%E5%A2%99%EF%BC%8C%E5%9C%A8%E8%BF%99%E9%87%8C%E4%BD%A0%E5%8F%AF%E4%BB%A5%E5%8F%91%E5%B8%83%E4%BD%A0%E6%83%B3%E5%8F%91%E5%B8%83%E7%9A%84%EF%BC%8C%E8%AF%B4%E4%BD%A0%E6%83%B3%E8%AF%B4%E7%9A%84%EF%BC%8C%E5%90%8C%E6%97%B6%E4%B9%9F%E5%8F%AF%E4%BB%A5%E9%80%89%E6%8B%A9%E5%8C%BF%E5%90%8D%E5%8F%91%E5%B8%83%E3%80%82&site=https://www.ncldzx.top/"
+              >
+        <div class="xsy-shortcut-icon">
+          <i class="xsyfont icon-share"></i>
         </div>
-        <div class="nexmoe-shortcut-name">分享墙</div>
+        <div class="xsy-shortcut-name">分享墙</div>
       </a>
     </div>
-    <div class="nexmoe-categorys">
+    <div class="xsy-categorys">
       <router-link
         v-for="item in category"
         :key="item.time"
@@ -26,18 +26,18 @@
         :to="'/category/'+item.cid"
       ># {{ item.name }}</router-link>
     </div>
-    <div class="nexmoe-list">
-      <content-placeholders class="nexmoe-item" v-if="loading">
+    <div class="xsy-list">
+      <content-placeholders class="xsy-item" v-if="loading">
         <content-placeholders-heading :img="true"/>
         <content-placeholders-img/>
         <content-placeholders-text/>
       </content-placeholders>
-      <content-placeholders class="nexmoe-item" v-if="loading">
+      <content-placeholders class="xsy-item" v-if="loading">
         <content-placeholders-heading :img="true"/>
         <content-placeholders-img/>
         <content-placeholders-text/>
       </content-placeholders>
-      <content-placeholders class="nexmoe-item" v-if="loading">
+      <content-placeholders class="xsy-item" v-if="loading">
         <content-placeholders-heading :img="true"/>
         <content-placeholders-img/>
         <content-placeholders-text/>
@@ -93,17 +93,17 @@ export default {
 </script>
 
 <style>
-#nexmoe-content .nexmoe-shortcut {
+#xsy-content .xsy-shortcut {
   margin: 5px;
 }
 
-#nexmoe-content .nexmoe-shortcut::after {
+#xsy-content .xsy-shortcut::after {
   clear: both;
   display: table;
   content: " ";
 }
 
-#nexmoe-content .nexmoe-shortcut .nexmoe-shortcut-item {
+#xsy-content .xsy-shortcut .xsy-shortcut-item {
   padding: 10px;
   color: #fff;
   border-radius: 4px;
@@ -113,29 +113,29 @@ export default {
   box-sizing: border-box;
 }
 
-#nexmoe-content .nexmoe-shortcut .nexmoe-shortcut-item.pink {
+#xsy-content .xsy-shortcut .xsy-shortcut-item.pink {
   background: linear-gradient(to right, rgb(238, 156, 167), rgb(255, 221, 225));
 }
 
-#nexmoe-content .nexmoe-shortcut .nexmoe-shortcut-item.blue {
+#xsy-content .xsy-shortcut .xsy-shortcut-item.blue {
   background: linear-gradient(to right, rgb(28, 146, 210), rgb(212, 248, 255));
 }
 
-#nexmoe-content .nexmoe-shortcut .nexmoe-shortcut-icon {
+#xsy-content .xsy-shortcut .xsy-shortcut-icon {
   border-radius: 100%;
   margin-bottom: 5px;
   margin-left: -2px;
 }
 
-#nexmoe-content .nexmoe-shortcut .nexmoe-shortcut-icon i {
+#xsy-content .xsy-shortcut .xsy-shortcut-icon i {
   font-size: 1.6em;
 }
 
-#nexmoe-content .nexmoe-categorys {
+#xsy-content .xsy-categorys {
   padding-left: 10px;
 }
 
-#nexmoe-content .nexmoe-categorys a {
+#xsy-content .xsy-categorys a {
   background-color: #fff;
   border-radius: 4px;
   padding: 2px 6px;
