@@ -45,9 +45,19 @@
 - 支持 Apache 的服务器
 
 ## 安装
+- 如果你要自定义修改东西的话，去编辑client目录里面的东西
+- 也就是/client/src/下的vue文件，然后修改完成后编译
+- npm install
+- npm run build
+- 在client目录下打开命令行，然后输入上面两行代码就行，前提是你电脑山有npm和vue.js的环境
+- 编译后的文件在dist目录里面
+![屏幕截图](1.png)
+- 最后只需要这些文件就可以把程序跑起来
 - 去releases 下载 zip 包安装
 - 将程序解压到网站根目录
 - 访问 `域名/install.php` 填写表单安装即可
+安不安装其实都可以，只要根目录有config.php文件且配置好了就行
+然后personal文件夹里面是一个标准的可以放到服务器上直接跑的文件夹，这个是我自己的信息，大家不用就直接忽略就好
 
 ## PWA支持
 service-wroker 已配置好了，只需要修改 `/static/manifest.json` 里面的内容即可
