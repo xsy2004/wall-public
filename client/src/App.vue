@@ -36,7 +36,7 @@ router.beforeEach((to, from, next) => {
       document.getElementById("baidu_tj") &&
         document.getElementById("baidu_tj").remove();
       var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?41b04999ee3d67f2acc9ce741045e68d";
+      hm.src = "https://hm.baidu.com/hm.js?b0a91157a02300a5ce11d53090a03fd1";
       hm.id = "baidu_tj";
       var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(hm, s);
@@ -72,9 +72,9 @@ body {
 
 @media screen and (min-width: 960px) {
   body,
-  #dalao2333-nav,
-  #dalao2333-header,
-  .dalao2333-reply {
+  #nexmoe-nav,
+  #nexmoe-header,
+  .nexmoe-reply {
     width: 420px !important;
     margin: auto;
   }
@@ -122,7 +122,7 @@ a {
   padding-bottom: 1px;
 }
 
-.dalao2333-tab {
+.nexmoe-tab {
   height: 46px;
   width: 100%;
   border-bottom: 1px solid #eee;
@@ -130,7 +130,7 @@ a {
   box-sizing: border-box;
 }
 
-.dalao2333-tab a {
+.nexmoe-tab a {
   padding: 0;
   box-sizing: border-box;
   line-height: 46px;
@@ -140,11 +140,11 @@ a {
   color: #000;
 }
 
-.dalao2333-tab a.router-link-exact-active {
+.nexmoe-tab a.router-link-exact-active {
   color: #ff7b8c;
 }
 
-.dalao2333-tab a.router-link-exact-active::after {
+.nexmoe-tab a.router-link-exact-active::after {
   color: #ff7b8c;
   content: "";
   background-color: #ff7b8c;
@@ -155,14 +155,14 @@ a {
   left: 0;
 }
 
-#dalao2333-content .dalao2333-item {
+#nexmoe-content .nexmoe-item {
   background-color: #fff;
   margin-bottom: 10px;
   display: block;
   color: #010101;
 }
 
-#dalao2333-content .dalao2333-item::after {
+#nexmoe-content .nexmoe-item::after {
   clear: both;
   display: table;
   content: " ";

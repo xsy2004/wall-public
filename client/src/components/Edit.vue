@@ -1,7 +1,7 @@
 <template>
-  <div id="dalao2333-content" class="edit">
-    <div class="dalao2333-item">
-      <div class="dalao2333-category">
+  <div id="nexmoe-content" class="edit">
+    <div class="nexmoe-item">
+      <div class="nexmoe-category">
         <el-select v-model="value" placeholder="请选择">
           <el-option v-for="item in category" :key="item.cid" :label="'# '+item.name" :value="item.cid">
           </el-option>
@@ -12,10 +12,10 @@
         <img style="width: 100%;" :src="uploadimg">
       </p>
     </div>
-    <div class="dalao2333-item">
+    <div class="nexmoe-item">
       <el-input type="textarea" placeholder="请输入内容" v-model="edit">
       </el-input>
-      <div class="dalao2333-tool">
+      <div class="nexmoe-tool">
         <el-upload style="float: left;" :action="'/api/controller/picupload'" accept="image/*"
           :before-upload="beforePicUpload" :on-success="handlePicSuccess" :show-file-list="false" multiple>
           <el-button icon="el-icon-picture-outline" circle></el-button>
@@ -174,17 +174,17 @@ import Article from '@/components/item/Article'
     height: 49px !important;
   }
 
-  #dalao2333-content .dalao2333-category {
+  #nexmoe-content .nexmoe-category {
     padding: 10px;
     background-color: #f8f8f8;
   }
 
-  #dalao2333-content .dalao2333-category .el-select {
+  #nexmoe-content .nexmoe-category .el-select {
     width: 100%;
     margin: -5px 0;
   }
 
-  #dalao2333-content .dalao2333-category .el-input__inner {
+  #nexmoe-content .nexmoe-category .el-input__inner {
     background-color: transparent;
     border: none;
     padding: 5px;

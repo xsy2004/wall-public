@@ -1,12 +1,12 @@
 <template>
 
-  <div class="dalao2333-item">
-    <div class="dalao2333-author">
-      <div class="dalao2333-avatar"><img :src="item.author.avatar"></div>
-      <div class="dalao2333-name">{{ item.author.name }}</div>
-      <div class="dalao2333-s">{{ item.time }}</div>
+  <div class="nexmoe-item">
+    <div class="nexmoe-author">
+      <div class="nexmoe-avatar"><img :src="item.author.avatar"></div>
+      <div class="nexmoe-name">{{ item.author.name }}</div>
+      <div class="nexmoe-s">{{ item.time }}</div>
     </div>
-    <div class="dalao2333-category">
+    <div class="nexmoe-category">
       # {{ item.category }}
     </div>
     <Article :article="item.article"></Article>
@@ -34,23 +34,23 @@
 </script>
 
 <style>
-  #dalao2333-content .dalao2333-item .dalao2333-author {
+  #nexmoe-content .nexmoe-item .nexmoe-author {
     padding: 10px;
     height: 56px;
   }
 
-  #dalao2333-content .dalao2333-item .dalao2333-avatar {
+  #nexmoe-content .nexmoe-item .nexmoe-avatar {
     height: 100%;
     float: left;
   }
 
-  #dalao2333-content .dalao2333-item .dalao2333-avatar img {
+  #nexmoe-content .nexmoe-item .nexmoe-avatar img {
     height: 100%;
     border-radius: 100%;
     background: #fff;
   }
 
-  #dalao2333-content .dalao2333-item .dalao2333-name {
+  #nexmoe-content .nexmoe-item .nexmoe-name {
     float: left;
     width: calc(100% - 56px);
     margin-top: 6px;
@@ -58,7 +58,7 @@
     padding: 0 10px;
   }
 
-  #dalao2333-content .dalao2333-item .dalao2333-s {
+  #nexmoe-content .nexmoe-item .nexmoe-s {
     float: left;
     width: calc(100% - 56px);
     margin-top: 2px;
@@ -67,7 +67,7 @@
     color: #656565;
   }
 
-  #dalao2333-content .dalao2333-item .dalao2333-category {
+  #nexmoe-content .nexmoe-item .nexmoe-category {
     padding: 12px 10px;
     background-color: #f8f8f8;
   }

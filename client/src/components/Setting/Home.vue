@@ -1,20 +1,20 @@
 <template>
-  <div class="dalao2333-setting home">
-    <div class="dalao2333-user">
-      <div class="dalao2333-avatar"><img :src="item.avatar"></div>
-      <div class="dalao2333-name">{{ item.name }}</div>
-      <div class="dalao2333-bg"></div>
+  <div class="nexmoe-setting home">
+    <div class="nexmoe-user">
+      <div class="nexmoe-avatar"><img :src="item.avatar"></div>
+      <div class="nexmoe-name">{{ item.name }}</div>
+      <div class="nexmoe-bg"></div>
     </div>
     <ul>
       <li>
-        <router-link tag="a" to="/setting/about"><i class="dalao2333font icon-infomation"></i>关于程序</router-link>
+        <router-link tag="a" to="/setting/about"><i class="nexmoefont icon-infomation"></i>关于程序</router-link>
       </li>
-      <li v-if="version<newversion">
-        <a href="https://one.chainwon.com/wall.chainwon.com.apk"><i class="dalao2333font icon-infomation"></i>更新版本</a>
+      <!-- <li v-if="version<newversion">
+        <a href="https://one.chainwon.com/wall.chainwon.com.apk"><i class="nexmoefont icon-infomation"></i>更新版本</a>
       </li>
       <li v-if="!version">
-        <a href="https://one.chainwon.com/wall.chainwon.com.apk"><i class="dalao2333font icon-infomation"></i>下载安卓 APP</a>
-      </li>
+        <a href="https://one.chainwon.com/wall.chainwon.com.apk"><i class="nexmoefont icon-infomation"></i>下载安卓 APP</a>
+      </li> -->
     </ul>
   </div>
 </template>
@@ -48,24 +48,24 @@
 
 </script>
 <style>
-  .dalao2333-setting.home {
+  .nexmoe-setting.home {
     background-color: #fff;
     height: calc(100vh - 102px);
   }
 
-  .dalao2333-setting.home ul {
+  .nexmoe-setting.home ul {
     margin: 0 50px !important;
     margin-top: 10px !important;
   }
 
-  .dalao2333-setting.home ul li {
+  .nexmoe-setting.home ul li {
     border-bottom: none !important;
     line-height: 32px;
     padding: 10px 0!important;
     zoom: 1.1;
   }
 
-  .dalao2333-setting.home ul li a i {
+  .nexmoe-setting.home ul li a i {
     position: relative;
     width: 32px;
     display: inline-block;
@@ -75,7 +75,7 @@
     margin-right: 5px;
   }
 
-  .dalao2333-setting.home ul li a i::after {
+  .nexmoe-setting.home ul li a i::after {
     content: "";
     height: 28px;
     width: 28px;
@@ -87,14 +87,14 @@
     z-index: -1;
   }
 
-  .dalao2333-user {
+  .nexmoe-user {
     position: relative;
     height: 180px;
     z-index: 2;
     margin-bottom: 60px;
   }
 
-  .dalao2333-user::after {
+  .nexmoe-user::after {
     content: '';
     left: 0;
     right: 0;
@@ -108,21 +108,21 @@
     z-index: -1;
   }
 
-  .dalao2333-user .dalao2333-avatar {
+  .nexmoe-user .nexmoe-avatar {
     height: auto!important;
     position: absolute;
     right: 55px;
     bottom: 15px;
   }
 
-  .dalao2333-user .dalao2333-avatar img {
+  .nexmoe-user .nexmoe-avatar img {
     border-radius: 100%;
     width: 100px;
     height: 100px!important;
     border: 5px solid #fff;
   }
 
-  .dalao2333-user .dalao2333-name {
+  .nexmoe-user .nexmoe-name {
     color: #fff;
     position: absolute;
     left: 55px;
@@ -132,7 +132,7 @@
     padding: 0!important;
   }
 
-  .dalao2333-user .dalao2333-bg {
+  .nexmoe-user .nexmoe-bg {
     height: 100%;
     width: 100%;
     background-color: #ff7b8c;

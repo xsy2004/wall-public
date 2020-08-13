@@ -1,17 +1,17 @@
 <template>
-  <div id="dalao2333-content">
-    <div class="dalao2333-list">
-      <content-placeholders class="dalao2333-item" v-if="loading">
+  <div id="nexmoe-content">
+    <div class="nexmoe-list">
+      <content-placeholders class="nexmoe-item" v-if="loading">
         <content-placeholders-heading :img="true"/>
         <content-placeholders-img/>
         <content-placeholders-text/>
       </content-placeholders>
-      <content-placeholders class="dalao2333-item" v-if="loading">
+      <content-placeholders class="nexmoe-item" v-if="loading">
         <content-placeholders-heading :img="true"/>
         <content-placeholders-img/>
         <content-placeholders-text/>
       </content-placeholders>
-      <content-placeholders class="dalao2333-item" v-if="loading">
+      <content-placeholders class="nexmoe-item" v-if="loading">
         <content-placeholders-heading :img="true"/>
         <content-placeholders-img/>
         <content-placeholders-text/>
@@ -58,11 +58,11 @@ export default {
 </script>
 
 <style>
-#dalao2333-content .dalao2333-categorys {
+#nexmoe-content .nexmoe-categorys {
   padding-left: 10px;
 }
 
-#dalao2333-content .dalao2333-categorys a {
+#nexmoe-content .nexmoe-categorys a {
   background-color: #fff;
   border-radius: 4px;
   padding: 2px 6px;

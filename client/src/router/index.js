@@ -20,7 +20,7 @@ export default new Router({
       component: Home,
       meta: {
         keepAlive: true,
-        title: "墙"
+        title: "立德墙"
       }
     },
     {
@@ -28,7 +28,7 @@ export default new Router({
       component: Category,
       meta: {
         keepAlive: false,
-        title: "墙"
+        title: "立德墙"
       }
     },
     {
@@ -36,7 +36,7 @@ export default new Router({
       component: Edit,
       meta: {
         keepAlive: false,
-        title: "墙"
+        title: "立德墙"
       }
     },
     {
@@ -44,7 +44,7 @@ export default new Router({
       component: Edit,
       meta: {
         keepAlive: false,
-        title: "墙"
+        title: "立德墙"
       }
     },
     {
@@ -52,7 +52,7 @@ export default new Router({
       component: Message,
       meta: {
         keepAlive: false,
-        title: "墙"
+        title: "立德墙"
       }
     },
     {
@@ -76,7 +76,7 @@ export default new Router({
       component: Setting,
       meta: {
         keepAlive: true,
-        title: "墙"
+        title: "立德墙"
       },
       children: [
         {
