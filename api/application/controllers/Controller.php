@@ -102,23 +102,24 @@ class Controller extends CI_Controller {
     }
 
     public function picupload() {
-        $this->load->model('Sina');
+        $this->load->model('AliYunUpload');
 
-        //准备本地图片文件
-        $saveFile = $_FILES["file"]["tmp_name"];
-        //要上传的文件本地路径
-
-        //生成cookie
-        $path = str_replace("api\\","",FCPATH);
-        $path = str_replace("api/","",$path);
-        $config = include $path."config.php";
-
-        $cookie = $this->Sina->weiboLogin($config['sina']['username'],$config['sina']['password']);
-
-        //上传图片到微博图床
-        $data = $this->Sina->weiboUpload($saveFile,$cookie,$multipart = true) ;
-
-        echo $this->Sina->getImageUrl(json_decode($data,true)['data']['pics']['pic_1']['pid']);
+        #获取上传文件信息
+        $saveFile = $_FILES['file']['tmp_name'];
+        #上传文件后缀
+        $ext = substr($_FILES['file']['name'], strrpos($_FILES['file']['name'], '.')
+            + 1);
+        #重命名文件上传名字
+        $dst = 'bbqfiles/' . md5(time()) . '.' . $ext;
+        #执行阿里云上传
+        $aliyun = new AliYunUpload();
+        $url = $aliyun->uploadImage($dst, $saveFile);
+        #根据显示返回信息
+        //图片处理不要可以删除."?x-oss-process=style/图片处理名称"
+        $json = json_encode(array(
+            'large' =>"https://你oss的域名".$dst."?x-oss-process=style/图片处理名称"
+        ));
+        echo($json);
 
     }
 

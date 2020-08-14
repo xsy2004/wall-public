@@ -58,6 +58,9 @@
 - 访问 `域名/install.php` 填写表单安装即可
 安不安装其实都可以，只要根目录有config.php文件且配置好了就行
 然后personal文件夹里面是一个标准的可以放到服务器上直接跑的文件夹，这个是我自己的信息，大家不用就直接忽略就好
+图片上传功能已经修复，改成上传到阿里云oss。
+因为功能很简单，我没有做文件类型判断，毕竟阿里云oss也跑不了动态文件，而且上传文件名重命名过，我目前想不到上传可以有什么样子的漏洞。
+自己要进`\api\application\models`修改AliYunUpload.php里面的信息，然后还要去/api/application/controllers/Controller.php修改域名等
 
 ## PWA支持
 service-wroker 已配置好了，只需要修改 `/static/manifest.json` 里面的内容即可
